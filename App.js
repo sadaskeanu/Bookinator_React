@@ -21,12 +21,7 @@ function App() {
   return (
     <div className="wrap">
       <div>
-        <Card
-          onYes={handleYes}
-          onNo={handleNo}
-          title={cardProps.title}
-          description={cardProps.description}
-        />
+        <Card onYes={handleYes} onNo={handleNo} title={cardProps.title} />
       </div>
     </div>
   )

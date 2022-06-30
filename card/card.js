@@ -1,6 +1,6 @@
 import './card.css'
 
-function Card({ onYes, onNo, title, description }) {
+function Card({ onYes, onNo, title }) {
   return (
     <div className="card__wrap">
       <p>{title}</p>
